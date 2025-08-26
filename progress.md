@@ -1,4 +1,3 @@
-````markdown
 #Progress Tracker
 
 ##Week 1: Fundamentals
