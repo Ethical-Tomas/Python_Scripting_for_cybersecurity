@@ -120,11 +120,11 @@ print(cheese)
 '''
 def eggs(someParameter):
    someParameter.append('Hello')
-
+   
 spam = [1, 2, 3]
 eggs(spam)
-print(spam)'''
-
+print(spam)
+'''
 #The copy module's copy() and deepcopy() functions
 '''
 import copy
@@ -137,6 +137,7 @@ print(cheese)
 
 #Practice Projects
 #Comma Code
+'''
 def convert(list_value):
     if not list_value:
         return ''
@@ -149,7 +150,21 @@ def convert(list_value):
 spam = ['apples', 'bananas', 'tofu', 'cat']
 cheese = convert(spam)
 print(cheese)
+'''
 
+#Character Picture Grid
+
+grid = [['.', '.', '.', '.', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['.', 'O', 'O', 'O', 'O', '1'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['.', '.', '.', '.', '.', '.']]
+for i in range(0, 9):
+    return grid[0:9][0:6]
 
 
          
